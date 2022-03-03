@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cadastro</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="secao1">
+        <h1 class="titulo">Cadastro</h1>
+    </section>
+    <section class="menu">
+        <a class="opcoes" href="principal.html">Principal</a>
+        <a class="opcoes" href="login.html">Login</a>
+        <a class="opcoes" href="cadastro.html">Cadastre-se</a>
+    </section>
+    <form action="/register" method="POST">
+        <label>Nome Completo</label>
+        <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Maria Izabel Lemos da Silva" required>
+
+        <label>Endereço de e-mail</label>
+        <input type="email" name="email" id="email" placeholder="mils2@aluno.ifal.edu.br" required>
+
+        <label class="form-esquerda">Nome Usuário</label>
+        <input class="form-esquerda" type="text" name="usuario" id="usuario" placeholder="Maria Izabel" required>
+
+        <label class="form-esquerda">Senha (entre 0 e 8 caracteres)</label>
+        <input class="form-esquerda" type="password" name="senha" id="senha" placeholder="12345678" required maxlength="8">
+
+        <button class="botao" type="submit">Cadastrar</button>
+    </form>
+    <script src="principal.js"></script>
+    <script src="registro.js"></script>
+</body>
+
+</html>

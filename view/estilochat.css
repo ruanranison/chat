@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#chat {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 600px;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+button {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: #5e17eb;
+    color: white;
+    border: none;
+    border-radius: 70px 70px 70px 70px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+form {
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+form>input {
+    display: flex;
+    background-color: #ececec;
+    border: none;
+    border-radius: 70px 70px 70px 70px;
+    width: 350px;
+    height: 40px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.campo-mensagem {
+    display: inline;
+    margin-top: 0;
+}
+
+.titulo3 {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    margin-left: 39%;
+    margin-right: 40%;
+    padding: 50px;
+}
+
+.menu {
+    top: 0;
+    background-image: linear-gradient(to right, #03989e, #412DE6, #5e17eb);
+    width: 100%;
+    height: 30px;
+}
+
+.opcoes {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.secao1 {
+    top: 0;
+    background-image: linear-gradient(to right, #03989e, #412DE6, #5e17eb);
+    width: 100%;
+    height: 150px;
+}
+
+.mensagens {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
